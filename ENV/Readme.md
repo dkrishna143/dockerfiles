@@ -1,0 +1,1 @@
+ENV: is instaruction to provide emvironment variables to container and images

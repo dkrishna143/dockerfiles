@@ -1,0 +1,3 @@
+FROM almalinux
+ENV AUTHOR="SIVA"\
+    COURSE="DOCKER"
