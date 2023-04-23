@@ -1,6 +1,5 @@
-ARG version
-FROM almalinux:${version:-8}
-ARG Greeting="hi good morning"
-ENV Gree=${"Greeting"}
-RUN echo "$Greeting"
-RUN echo "$version"
+FROM busybox
+USER ${username:-krishna}
+ARG username
+USER $username
+# ...
