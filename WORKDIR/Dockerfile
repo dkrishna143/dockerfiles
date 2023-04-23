@@ -1,3 +1,3 @@
 FROM almalinux
-WORKDIR /temp
-RUN Touch /temp/hello.txt
+WORKDIR /tmp
+RUN touch hello.txt
